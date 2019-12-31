@@ -1,0 +1,102 @@
+.loan_form {
+    width: 600px;
+    margin: 2rem auto;
+    max-width: 100%;
+}
+
+.form_control {
+    border-top: 1px solid #e6e6e6;
+    margin: 0;
+    padding: 2px 0;
+}
+  
+.form_control label {
+    display: inline-block;
+    float: left;
+    position: left;
+    vertical-align: middle;
+    padding: 6px 30px;
+    margin: 10px 0px;
+    height: 20px;
+    width: 300px;
+    font-size: 12pt;
+}
+
+
+.form_control span {
+    display: inline;
+    vertical-align: middle;
+    float: left;
+    border: 1px solid #d1d7db;
+    border-right: 0;
+    background: #fff;
+    color: #5a5c5e;
+    margin: 10px 0;
+    height: 20px;
+    width: 10px;
+    padding: 6px 10px;
+}
+
+.form_control_div {
+    display: inline;
+}
+.form_control_div input {
+    margin-right: 0;
+    padding-right: 0;
+    border-radius: 0 2px 2px 0;
+    box-sizing: border-box;
+    border: 1px solid #d1d7db;
+    border-left: 0;
+    height: 34px;
+    width: 170px;
+    padding: 0 10px;
+    background: #fff;
+    vertical-align: middle;
+    margin: 10px 0;
+    font-size: 12pt;
+}
+
+.form_control input:focus {
+outline: none;
+border-bottom-color: #ff2058;
+}
+
+.form_actions {
+    border-top: 1px solid #e6e6e6;
+    padding: 2px 0;
+    text-align: center;
+
+}
+.form_actions button {
+    width: 200px;
+    height: 35px;
+    background: rgb(4, 204, 4);
+    margin: 15px 0 0 0;
+    border-radius: 0 2px 2px 0;
+    font-size: 12pt;
+   }
+
+.result_list {
+    width: 30rem;
+    max-width: 80%;
+    margin: auto;
+}
+  
+.result_list h2 {
+border-bottom: 3px solid #ccc;
+padding-bottom: 1rem;
+}
+
+.result_list ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.result_list li {
+margin: 1rem 0;
+padding: 0.5rem 1rem;
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.26);
+display: flex;
+justify-content: space-between;
+}

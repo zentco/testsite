@@ -1,5 +1,12 @@
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0 auto;
+  overflow: auto;
+}
+
 .App {
-  text-align: center;
+  overflow: auto;
 }
 
 .App-logo {

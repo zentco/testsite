@@ -1,0 +1,40 @@
+.question_data_row {
+    margin: 0;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* .question_data_row::after {
+    content: "";
+    clear: both;
+    display: table
+} */
+.columnsHalf {
+    width: 50%;
+}
+.columnsOneThird {
+    width: 34%;
+}
+.columnsTwoThirds {
+    width: 66%;
+}
+
+/* .question_data_row div label {
+    padding: 4px 0px;
+    margin: 4px;
+    height: 20px;
+} */
+
+.question_data_row input {
+    margin: 9px 0px 9px 0px;
+    border-radius: 0 2px 2px 0;
+    box-sizing: border-box;
+    border: 1px solid #d1d7db;
+    height: 18px;
+    width: 170px;
+    padding: 6px 0px;
+    background: #fff;
+}
+.question_data_row label {
+    margin: 9px 0px;
+}
